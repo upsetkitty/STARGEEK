@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/background.png);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parte-cima{
+    background-color: rgba(119, 39, 39, 1);
+    height: 130px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1000px
+}
+
+.logo{
+    zoom: 70%;
+    padding-top: 30px
+}
+
+.icon-login{
+    zoom: 60%;
+    padding-top: 10px;
+}
+
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.em-alta{
+    color: rgba(166, 40, 40, 1);
+    background-color: #fff;
+    width: 600px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.em-alta-elemento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px
+}
+
+.icon-login:hover{
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+.conjunto-img-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+
+.conjunto-img-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 100px
+}
+
+.conjunto-img-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 100px
+}
+
+.rodape{
+    color: white;
+    background-color:#772727;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    column-gap: 60px;
+    margin:30px 0;
+    padding:30px 0;
+    border-top: 1px solid rgb(94, 75, 75);
+}
+  
+  
+.rodape > ul{
+    list-style-type: none;
+}
+  
+.rodape > ul >li {
+    padding-bottom: 20px;
+    font-size:0.9rem;
+}
